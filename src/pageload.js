@@ -1,4 +1,4 @@
-import { home } from "./home";
+import { homePage } from "./home";
 
 export function printHeader() {
     const header = document.createElement('header');
@@ -9,10 +9,11 @@ export function printHeader() {
     document.body.appendChild(header);
 };
 export function pageload(value) {
+
     const container = document.createElement('div');
     container.setAttribute('id', 'container');
     document.body.appendChild(container);
     container.innerHTML = value;
 };
 
-export const loadHome = () => { pageload(home) }
+export const loadHome = () => { pageload(homePage) }
