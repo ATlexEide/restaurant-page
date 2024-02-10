@@ -1,6 +1,3 @@
-import { pageload } from "./pageload"
-
-const about = `
-<h1>About</h1>`
-
-pageload(about)
+export const aboutPage = `
+<h1>About</h1>
+<p>We are a restaurant</p>`;
