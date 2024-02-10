@@ -30,7 +30,7 @@ function changePage(value) {
             value === 'menu' ? value = menu : console.log('oh no')
     if (value !== currentPage) {
         container.innerHTML = value;
-        currentPage = value
+        currentPage = value;
     }
 }
 
